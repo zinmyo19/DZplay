@@ -1,0 +1,15 @@
+# build outputs
+build/
+out/
+*.apk
+*.aab
+# fetched compose dependencies (regenerate with: python3 dl.py)
+deps/
+.pomcache/
+# local keystores — never commit
+*.keystore
+*.jks
+# OS / editor
+.DS_Store
+.idea/
+*.iml
